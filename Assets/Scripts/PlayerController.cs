@@ -2,6 +2,7 @@
 // 4/25/23
 // Assignment 3
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
@@ -45,9 +46,8 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         Move();
-        CheckBounds();
+        //CheckBounds();
     }
-
     public void CheckBounds()
     {
         // check if the player is out of the min x, z, and max x, z bounds of the plane
